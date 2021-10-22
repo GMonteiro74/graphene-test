@@ -1,0 +1,90 @@
+
+.bg-rose {
+    width: 100vw;
+    height: 70vh;
+    background-color: #fbdac9;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form-container {
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  form {
+    width: 50%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 30px;
+  }
+  
+  button {
+    background-color: #333;
+    color: #FFDAC9;
+    align-self: flex-end;
+    font-size: 18px;
+    padding: 5px 20px;
+    border: 0;
+  }
+  
+  .rose-btn {
+    color: #333;
+    background-color: #FFDAC9;
+  }
+  
+  
+  form > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 25px;  
+    width: 45%;
+  }
+  
+  .form-text {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  input, select {
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #333;  
+  }
+  
+  label, .card-sub-title {
+    font-size: 14px;
+  }
+  
+  /* select {
+    
+  } */
+  
+  ::placeholder, select {
+    color: #76767638;
+  }
+  
+  .form-detail {
+    position: absolute;
+    top: 1%;
+    left: 60%;
+  }
+  
+  .form-text p {
+    color: #767676;
+  }
+
+  .white-line {
+    border: 3px solid #FFF !important ;
+  }

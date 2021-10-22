@@ -1,0 +1,35 @@
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    height: 120vh;
+}
+
+.menu-tab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.menu-dish {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 10px;
+}
+
+.menu-dish p {
+    color: #767676;
+}
+
+.price-border {
+    padding: 2px 6px;
+    border: 1px solid #FFDAC9;
+    margin-top: 10px;
+    text-align: center;
+    width: 30%;
+}

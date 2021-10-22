@@ -1,0 +1,233 @@
+@import url(Card.css);
+@import url(Form.css);
+@import url(Menu.css);
+@import url(Community.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+@font-face {
+  font-family: "Gill Sans";
+  src: url("../fonts/GillSans.ttc");
+}
+
+@font-face {
+  font-family: "DIN Condensed Bold";
+  src: url("../fonts/DIN\ Condensed\ Bold.ttf");
+}
+
+body {
+  font-family: "Gill Sans";
+  font-size: 15px;
+  overflow-x: hidden;
+}
+
+/* NAV-BAR */
+
+.align-nav {
+  background-color: #282c3400;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 10vh;
+  position: fixed;
+  z-index: 99;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 95vw;
+}
+
+nav a:hover {
+  cursor: pointer;
+}
+
+nav h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+.stretched {
+  font-stretch: ultra-expanded;
+  width: 50vw;
+}
+
+nav > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+}
+
+.uppercase {
+  text-transform:uppercase;
+}
+
+h1, h2, label, button {
+  font-family: "DIN Condensed Bold";
+}
+
+.title {
+  font-size: 62px;
+  z-index: 5;
+  line-height: 0.9;
+}
+
+.sub-title {
+  font-size: 35px;
+}
+
+.bottom-100 {
+  margin-bottom: 100px;
+}
+
+.line-behind {
+  position: relative;
+}
+
+hr {
+  position: absolute;
+  border: 3px solid #fbdac9;
+  width: 100%;
+  top: 40%;
+  z-index: -1;
+}
+
+/* HERO SECTION */
+
+.big-banner {
+  background-color: #fbdac9;
+  background-image: url('../big-banner.png');
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #FFF;
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  line-height: 0.9;
+}
+
+.main-title {
+  font-size: 82px;
+}
+
+.lg-text {
+  font-size: 115px;
+}
+
+.stamp {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  width: 120px;
+  height: 120px;
+  transform: matrix(0.99, -0.45, 0.45, 0.99, 0, 0);
+}
+
+.request-info {
+  color: #333333;
+  background-color: #fff;
+  padding: 5px 10px;
+  position: absolute;
+  top: 45%;
+  right: 0%;
+  transform: matrix(0, -1, 1, 0, 0, 0);
+}
+
+/* RECIPES */
+.flex-row {
+  width: 80%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.recipes-sect {
+  min-height: 90vh;
+  flex-direction: column;
+  gap: 60px;
+}
+
+/* MAP */
+.map-container {
+  background-image: url('../03.\ Location.png');
+  width: 100vw;
+  height: 70vh;
+  margin: 60px 0;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* FOOTER */
+footer {
+  width: 100vw;
+  height: 50vh;
+  background-color: #333333;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  justify-content: center;
+} 
+
+footer h2 {
+  font-size: 15px;
+  color: #fbdac9;
+}
+
+footer h3 {
+  font-size: 13px;
+  color: #767676;
+}
+
+.logo-footer {
+  text-align: right;
+}
+
+.logo-footer > * {
+  color: #FFF;
+}
+
+.section-container {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footer-sections {
+  display: flex;
+  width: 60%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-sections > div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}

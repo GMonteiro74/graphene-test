@@ -1,0 +1,91 @@
+
+.community-card {
+    width: 250px;
+    height: 250px;
+    background-color: #FFF;
+    box-shadow: 0px 15px 20px 2px rgba(167, 167, 167, 0.527);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.community-card-flex {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 30px;
+}
+
+.community-title {
+    position: absolute;
+    top: 0;
+    left: 250px;
+}
+
+.community-sect, .recipes-sect {
+    min-height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+    width: 100vw;
+}
+
+.likes-bottom-card {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.insta-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+}
+ 
+/* GRID */
+.grid-container {
+    width: 80vw;
+    min-height: 100vh;
+}
+
+.grid-row {
+    width: 100%;
+    display: grid;
+    gap: 30px;
+    padding-top: 100px;
+    grid-template-columns: repeat(4, 1fr);
+}
+  
+.second-community {
+    grid-column: 3 / 4;
+}
+
+.third-community {
+    grid-column: 4 / -1;
+}
+
+.fourth-community {
+    grid-column: 1 / 2;
+}
+
+.fifth-community {
+    grid-column: 2 / 3;
+}
+
+.seventh-community {
+    grid-column: 3 / 4;
+}
+
+.eighth-community {
+    grid-column: 4 / -1;
+}
