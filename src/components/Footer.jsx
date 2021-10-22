@@ -54,11 +54,11 @@ export default function Footer() {
         <div className='section-container'>
             <h3>2017. Company. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor .</h3>
             <div className='social-icons'>
-                <img src='./icons/facebook-icon.svg' />
-                <img src='./icons/twitter-icon.svg' />
-                <img src='./icons/instagram-icon.svg' />
-                <img src='./icons/Linkedin-icon.svg' />
-                <img src='./icons/dribble-icon.png' />
+                <img src='./icons/facebook-icon.svg' alt='facebook'/>
+                <img src='./icons/twitter-icon.svg' alt='twitter' />
+                <img src='./icons/instagram-icon.svg' alt='instagram' />
+                <img src='./icons/Linkedin-icon.svg' alt='linkedin' />
+                <img src='./icons/dribble-icon.png' alt='dribbble' />
             </div>
         </div>
 
